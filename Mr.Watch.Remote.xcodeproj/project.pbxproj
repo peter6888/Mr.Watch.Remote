@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A715D4DA1B43BFEC00858794 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A715D4D91B43BFEC00858794 /* main.m */; };
+		A715D4DD1B43BFEC00858794 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A715D4DC1B43BFEC00858794 /* AppDelegate.m */; };
+		A715D4E01B43BFEC00858794 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A715D4DF1B43BFEC00858794 /* ViewController.m */; };
+		A715D4E31B43BFEC00858794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A715D4E11B43BFEC00858794 /* Main.storyboard */; };
+		A715D4E51B43BFEC00858794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A715D4E41B43BFEC00858794 /* Assets.xcassets */; };
+		A715D4E81B43BFEC00858794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A715D4E61B43BFEC00858794 /* LaunchScreen.storyboard */; };
+		A715D4F31B43BFEC00858794 /* Mr_Watch_RemoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A715D4F21B43BFEC00858794 /* Mr_Watch_RemoteTests.m */; };
+		A715D4FE1B43BFEC00858794 /* Mr_Watch_RemoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A715D4FD1B43BFEC00858794 /* Mr_Watch_RemoteUITests.m */; };
+		A715D5031B43BFEC00858794 /* Mr.Watch.Remote WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A715D5021B43BFEC00858794 /* Mr.Watch.Remote WatchKit App.app */; };
+		A715D5091B43BFEC00858794 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A715D5071B43BFEC00858794 /* Interface.storyboard */; };
+		A715D50B1B43BFEC00858794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A715D50A1B43BFEC00858794 /* Assets.xcassets */; };
+		A715D5121B43BFEC00858794 /* Mr.Watch.Remote WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A715D5111B43BFEC00858794 /* Mr.Watch.Remote WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A715D51A1B43BFEC00858794 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A715D5191B43BFEC00858794 /* InterfaceController.m */; };
+		A715D51D1B43BFEC00858794 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A715D51C1B43BFEC00858794 /* ExtensionDelegate.m */; };
+		A715D5201B43BFEC00858794 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A715D51F1B43BFEC00858794 /* NotificationController.m */; };
+		A715D5221B43BFEC00858794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A715D5211B43BFEC00858794 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A715D4EF1B43BFEC00858794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A715D4CD1B43BFEC00858794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A715D4D41B43BFEC00858794;
+			remoteInfo = Mr.Watch.Remote;
+		};
+		A715D4FA1B43BFEC00858794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A715D4CD1B43BFEC00858794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A715D4D41B43BFEC00858794;
+			remoteInfo = Mr.Watch.Remote;
+		};
+		A715D5041B43BFEC00858794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A715D4CD1B43BFEC00858794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A715D5011B43BFEC00858794;
+			remoteInfo = "Mr.Watch.Remote WatchKit App";
+		};
+		A715D5131B43BFEC00858794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A715D4CD1B43BFEC00858794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A715D5101B43BFEC00858794;
+			remoteInfo = "Mr.Watch.Remote WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A715D5291B43BFEC00858794 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A715D5121B43BFEC00858794 /* Mr.Watch.Remote WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A715D52D1B43BFEC00858794 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A715D5031B43BFEC00858794 /* Mr.Watch.Remote WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A715D4D51B43BFEC00858794 /* Mr.Watch.Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mr.Watch.Remote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A715D4D91B43BFEC00858794 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A715D4DB1B43BFEC00858794 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A715D4DC1B43BFEC00858794 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A715D4DE1B43BFEC00858794 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A715D4DF1B43BFEC00858794 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A715D4E21B43BFEC00858794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A715D4E41B43BFEC00858794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A715D4E71B43BFEC00858794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A715D4E91B43BFEC00858794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A715D4EE1B43BFEC00858794 /* Mr.Watch.RemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mr.Watch.RemoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A715D4F21B43BFEC00858794 /* Mr_Watch_RemoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mr_Watch_RemoteTests.m; sourceTree = "<group>"; };
+		A715D4F41B43BFEC00858794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A715D4F91B43BFEC00858794 /* Mr.Watch.RemoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mr.Watch.RemoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A715D4FD1B43BFEC00858794 /* Mr_Watch_RemoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mr_Watch_RemoteUITests.m; sourceTree = "<group>"; };
+		A715D4FF1B43BFEC00858794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A715D5021B43BFEC00858794 /* Mr.Watch.Remote WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mr.Watch.Remote WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A715D5081B43BFEC00858794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A715D50A1B43BFEC00858794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A715D50C1B43BFEC00858794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A715D5111B43BFEC00858794 /* Mr.Watch.Remote WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mr.Watch.Remote WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A715D5171B43BFEC00858794 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A715D5181B43BFEC00858794 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		A715D5191B43BFEC00858794 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		A715D51B1B43BFEC00858794 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		A715D51C1B43BFEC00858794 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		A715D51E1B43BFEC00858794 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		A715D51F1B43BFEC00858794 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		A715D5211B43BFEC00858794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A715D5231B43BFEC00858794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A715D4D21B43BFEC00858794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A715D4EB1B43BFEC00858794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A715D4F61B43BFEC00858794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A715D50E1B43BFEC00858794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A715D4CC1B43BFEC00858794 = {
+			isa = PBXGroup;
+			children = (
+				A715D4D71B43BFEC00858794 /* Mr.Watch.Remote */,
+				A715D4F11B43BFEC00858794 /* Mr.Watch.RemoteTests */,
+				A715D4FC1B43BFEC00858794 /* Mr.Watch.RemoteUITests */,
+				A715D5061B43BFEC00858794 /* Mr.Watch.Remote WatchKit App */,
+				A715D5151B43BFEC00858794 /* Mr.Watch.Remote WatchKit Extension */,
+				A715D4D61B43BFEC00858794 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A715D4D61B43BFEC00858794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A715D4D51B43BFEC00858794 /* Mr.Watch.Remote.app */,
+				A715D4EE1B43BFEC00858794 /* Mr.Watch.RemoteTests.xctest */,
+				A715D4F91B43BFEC00858794 /* Mr.Watch.RemoteUITests.xctest */,
+				A715D5021B43BFEC00858794 /* Mr.Watch.Remote WatchKit App.app */,
+				A715D5111B43BFEC00858794 /* Mr.Watch.Remote WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A715D4D71B43BFEC00858794 /* Mr.Watch.Remote */ = {
+			isa = PBXGroup;
+			children = (
+				A715D4DB1B43BFEC00858794 /* AppDelegate.h */,
+				A715D4DC1B43BFEC00858794 /* AppDelegate.m */,
+				A715D4DE1B43BFEC00858794 /* ViewController.h */,
+				A715D4DF1B43BFEC00858794 /* ViewController.m */,
+				A715D4E11B43BFEC00858794 /* Main.storyboard */,
+				A715D4E41B43BFEC00858794 /* Assets.xcassets */,
+				A715D4E61B43BFEC00858794 /* LaunchScreen.storyboard */,
+				A715D4E91B43BFEC00858794 /* Info.plist */,
+				A715D4D81B43BFEC00858794 /* Supporting Files */,
+			);
+			path = Mr.Watch.Remote;
+			sourceTree = "<group>";
+		};
+		A715D4D81B43BFEC00858794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A715D4D91B43BFEC00858794 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A715D4F11B43BFEC00858794 /* Mr.Watch.RemoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				A715D4F21B43BFEC00858794 /* Mr_Watch_RemoteTests.m */,
+				A715D4F41B43BFEC00858794 /* Info.plist */,
+			);
+			path = Mr.Watch.RemoteTests;
+			sourceTree = "<group>";
+		};
+		A715D4FC1B43BFEC00858794 /* Mr.Watch.RemoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A715D4FD1B43BFEC00858794 /* Mr_Watch_RemoteUITests.m */,
+				A715D4FF1B43BFEC00858794 /* Info.plist */,
+			);
+			path = Mr.Watch.RemoteUITests;
+			sourceTree = "<group>";
+		};
+		A715D5061B43BFEC00858794 /* Mr.Watch.Remote WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A715D5071B43BFEC00858794 /* Interface.storyboard */,
+				A715D50A1B43BFEC00858794 /* Assets.xcassets */,
+				A715D50C1B43BFEC00858794 /* Info.plist */,
+			);
+			path = "Mr.Watch.Remote WatchKit App";
+			sourceTree = "<group>";
+		};
+		A715D5151B43BFEC00858794 /* Mr.Watch.Remote WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A715D5181B43BFEC00858794 /* InterfaceController.h */,
+				A715D5191B43BFEC00858794 /* InterfaceController.m */,
+				A715D51B1B43BFEC00858794 /* ExtensionDelegate.h */,
+				A715D51C1B43BFEC00858794 /* ExtensionDelegate.m */,
+				A715D51E1B43BFEC00858794 /* NotificationController.h */,
+				A715D51F1B43BFEC00858794 /* NotificationController.m */,
+				A715D5211B43BFEC00858794 /* Assets.xcassets */,
+				A715D5231B43BFEC00858794 /* Info.plist */,
+				A715D5161B43BFEC00858794 /* Supporting Files */,
+			);
+			path = "Mr.Watch.Remote WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A715D5161B43BFEC00858794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A715D5171B43BFEC00858794 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A715D4D41B43BFEC00858794 /* Mr.Watch.Remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A715D52E1B43BFEC00858794 /* Build configuration list for PBXNativeTarget "Mr.Watch.Remote" */;
+			buildPhases = (
+				A715D4D11B43BFEC00858794 /* Sources */,
+				A715D4D21B43BFEC00858794 /* Frameworks */,
+				A715D4D31B43BFEC00858794 /* Resources */,
+				A715D52D1B43BFEC00858794 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A715D5051B43BFEC00858794 /* PBXTargetDependency */,
+			);
+			name = Mr.Watch.Remote;
+			productName = Mr.Watch.Remote;
+			productReference = A715D4D51B43BFEC00858794 /* Mr.Watch.Remote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A715D4ED1B43BFEC00858794 /* Mr.Watch.RemoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A715D5311B43BFEC00858794 /* Build configuration list for PBXNativeTarget "Mr.Watch.RemoteTests" */;
+			buildPhases = (
+				A715D4EA1B43BFEC00858794 /* Sources */,
+				A715D4EB1B43BFEC00858794 /* Frameworks */,
+				A715D4EC1B43BFEC00858794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A715D4F01B43BFEC00858794 /* PBXTargetDependency */,
+			);
+			name = Mr.Watch.RemoteTests;
+			productName = Mr.Watch.RemoteTests;
+			productReference = A715D4EE1B43BFEC00858794 /* Mr.Watch.RemoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A715D4F81B43BFEC00858794 /* Mr.Watch.RemoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A715D5341B43BFEC00858794 /* Build configuration list for PBXNativeTarget "Mr.Watch.RemoteUITests" */;
+			buildPhases = (
+				A715D4F51B43BFEC00858794 /* Sources */,
+				A715D4F61B43BFEC00858794 /* Frameworks */,
+				A715D4F71B43BFEC00858794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A715D4FB1B43BFEC00858794 /* PBXTargetDependency */,
+			);
+			name = Mr.Watch.RemoteUITests;
+			productName = Mr.Watch.RemoteUITests;
+			productReference = A715D4F91B43BFEC00858794 /* Mr.Watch.RemoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A715D5011B43BFEC00858794 /* Mr.Watch.Remote WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A715D52A1B43BFEC00858794 /* Build configuration list for PBXNativeTarget "Mr.Watch.Remote WatchKit App" */;
+			buildPhases = (
+				A715D5001B43BFEC00858794 /* Resources */,
+				A715D5291B43BFEC00858794 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A715D5141B43BFEC00858794 /* PBXTargetDependency */,
+			);
+			name = "Mr.Watch.Remote WatchKit App";
+			productName = "Mr.Watch.Remote WatchKit App";
+			productReference = A715D5021B43BFEC00858794 /* Mr.Watch.Remote WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A715D5101B43BFEC00858794 /* Mr.Watch.Remote WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A715D5261B43BFEC00858794 /* Build configuration list for PBXNativeTarget "Mr.Watch.Remote WatchKit Extension" */;
+			buildPhases = (
+				A715D50D1B43BFEC00858794 /* Sources */,
+				A715D50E1B43BFEC00858794 /* Frameworks */,
+				A715D50F1B43BFEC00858794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mr.Watch.Remote WatchKit Extension";
+			productName = "Mr.Watch.Remote WatchKit Extension";
+			productReference = A715D5111B43BFEC00858794 /* Mr.Watch.Remote WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A715D4CD1B43BFEC00858794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Peter Li";
+				TargetAttributes = {
+					A715D4D41B43BFEC00858794 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A715D4ED1B43BFEC00858794 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A715D4D41B43BFEC00858794;
+					};
+					A715D4F81B43BFEC00858794 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A715D4D41B43BFEC00858794;
+					};
+					A715D5011B43BFEC00858794 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A715D5101B43BFEC00858794 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = A715D4D01B43BFEC00858794 /* Build configuration list for PBXProject "Mr.Watch.Remote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A715D4CC1B43BFEC00858794;
+			productRefGroup = A715D4D61B43BFEC00858794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A715D4D41B43BFEC00858794 /* Mr.Watch.Remote */,
+				A715D4ED1B43BFEC00858794 /* Mr.Watch.RemoteTests */,
+				A715D4F81B43BFEC00858794 /* Mr.Watch.RemoteUITests */,
+				A715D5011B43BFEC00858794 /* Mr.Watch.Remote WatchKit App */,
+				A715D5101B43BFEC00858794 /* Mr.Watch.Remote WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A715D4D31B43BFEC00858794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A715D4E81B43BFEC00858794 /* LaunchScreen.storyboard in Resources */,
+				A715D4E51B43BFEC00858794 /* Assets.xcassets in Resources */,
+				A715D4E31B43BFEC00858794 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A715D4EC1B43BFEC00858794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A715D4F71B43BFEC00858794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A715D5001B43BFEC00858794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A715D50B1B43BFEC00858794 /* Assets.xcassets in Resources */,
+				A715D5091B43BFEC00858794 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A715D50F1B43BFEC00858794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A715D5221B43BFEC00858794 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A715D4D11B43BFEC00858794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A715D4E01B43BFEC00858794 /* ViewController.m in Sources */,
+				A715D4DD1B43BFEC00858794 /* AppDelegate.m in Sources */,
+				A715D4DA1B43BFEC00858794 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A715D4EA1B43BFEC00858794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A715D4F31B43BFEC00858794 /* Mr_Watch_RemoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A715D4F51B43BFEC00858794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A715D4FE1B43BFEC00858794 /* Mr_Watch_RemoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A715D50D1B43BFEC00858794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A715D51D1B43BFEC00858794 /* ExtensionDelegate.m in Sources */,
+				A715D51A1B43BFEC00858794 /* InterfaceController.m in Sources */,
+				A715D5201B43BFEC00858794 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A715D4F01B43BFEC00858794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A715D4D41B43BFEC00858794 /* Mr.Watch.Remote */;
+			targetProxy = A715D4EF1B43BFEC00858794 /* PBXContainerItemProxy */;
+		};
+		A715D4FB1B43BFEC00858794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A715D4D41B43BFEC00858794 /* Mr.Watch.Remote */;
+			targetProxy = A715D4FA1B43BFEC00858794 /* PBXContainerItemProxy */;
+		};
+		A715D5051B43BFEC00858794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A715D5011B43BFEC00858794 /* Mr.Watch.Remote WatchKit App */;
+			targetProxy = A715D5041B43BFEC00858794 /* PBXContainerItemProxy */;
+		};
+		A715D5141B43BFEC00858794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A715D5101B43BFEC00858794 /* Mr.Watch.Remote WatchKit Extension */;
+			targetProxy = A715D5131B43BFEC00858794 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A715D4E11B43BFEC00858794 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A715D4E21B43BFEC00858794 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A715D4E61B43BFEC00858794 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A715D4E71B43BFEC00858794 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A715D5071B43BFEC00858794 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A715D5081B43BFEC00858794 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A715D5241B43BFEC00858794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A715D5251B43BFEC00858794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A715D5271B43BFEC00858794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Mr.Watch.Remote WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.Mr-Watch-Remote.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A715D5281B43BFEC00858794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Mr.Watch.Remote WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.Mr-Watch-Remote.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A715D52B1B43BFEC00858794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = Mr_Watch_Remote_WatchKit_Extension;
+				INFOPLIST_FILE = "Mr.Watch.Remote WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.Mr-Watch-Remote.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A715D52C1B43BFEC00858794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = Mr_Watch_Remote_WatchKit_Extension;
+				INFOPLIST_FILE = "Mr.Watch.Remote WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.Mr-Watch-Remote.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A715D52F1B43BFEC00858794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mr.Watch.Remote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.Mr-Watch-Remote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A715D5301B43BFEC00858794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mr.Watch.Remote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.Mr-Watch-Remote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A715D5321B43BFEC00858794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Mr.Watch.RemoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.Mr-Watch-RemoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mr.Watch.Remote.app/Mr.Watch.Remote";
+			};
+			name = Debug;
+		};
+		A715D5331B43BFEC00858794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Mr.Watch.RemoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.Mr-Watch-RemoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mr.Watch.Remote.app/Mr.Watch.Remote";
+			};
+			name = Release;
+		};
+		A715D5351B43BFEC00858794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Mr.Watch.RemoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.Mr-Watch-RemoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mr.Watch.Remote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A715D5361B43BFEC00858794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Mr.Watch.RemoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.Mr-Watch-RemoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mr.Watch.Remote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A715D4D01B43BFEC00858794 /* Build configuration list for PBXProject "Mr.Watch.Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A715D5241B43BFEC00858794 /* Debug */,
+				A715D5251B43BFEC00858794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A715D5261B43BFEC00858794 /* Build configuration list for PBXNativeTarget "Mr.Watch.Remote WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A715D5271B43BFEC00858794 /* Debug */,
+				A715D5281B43BFEC00858794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A715D52A1B43BFEC00858794 /* Build configuration list for PBXNativeTarget "Mr.Watch.Remote WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A715D52B1B43BFEC00858794 /* Debug */,
+				A715D52C1B43BFEC00858794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A715D52E1B43BFEC00858794 /* Build configuration list for PBXNativeTarget "Mr.Watch.Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A715D52F1B43BFEC00858794 /* Debug */,
+				A715D5301B43BFEC00858794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A715D5311B43BFEC00858794 /* Build configuration list for PBXNativeTarget "Mr.Watch.RemoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A715D5321B43BFEC00858794 /* Debug */,
+				A715D5331B43BFEC00858794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A715D5341B43BFEC00858794 /* Build configuration list for PBXNativeTarget "Mr.Watch.RemoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A715D5351B43BFEC00858794 /* Debug */,
+				A715D5361B43BFEC00858794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A715D4CD1B43BFEC00858794 /* Project object */;
+}
