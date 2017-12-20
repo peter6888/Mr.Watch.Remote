@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A715D4D41B43BFEC00858794"
-               BuildableName = "Mr.Watch.Remote.app"
-               BlueprintName = "Mr.Watch.Remote"
+               BlueprintIdentifier = "A715D53A1B43C36500858794"
+               BuildableName = "libCompanionKit.a"
+               BlueprintName = "CompanionKit"
                ReferencedContainer = "container:Mr.Watch.Remote.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,19 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A715D4ED1B43BFEC00858794"
-               BuildableName = "Mr.Watch.RemoteTests.xctest"
-               BlueprintName = "Mr.Watch.RemoteTests"
-               ReferencedContainer = "container:Mr.Watch.Remote.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A715D4F81B43BFEC00858794"
-               BuildableName = "Mr.Watch.RemoteUITests.xctest"
-               BlueprintName = "Mr.Watch.RemoteUITests"
+               BlueprintIdentifier = "A715D5441B43C36500858794"
+               BuildableName = "CompanionKitTests.xctest"
+               BlueprintName = "CompanionKitTests"
                ReferencedContainer = "container:Mr.Watch.Remote.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -52,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A715D4D41B43BFEC00858794"
-            BuildableName = "Mr.Watch.Remote.app"
-            BlueprintName = "Mr.Watch.Remote"
+            BlueprintIdentifier = "A715D53A1B43C36500858794"
+            BuildableName = "libCompanionKit.a"
+            BlueprintName = "CompanionKit"
             ReferencedContainer = "container:Mr.Watch.Remote.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -71,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A715D4D41B43BFEC00858794"
-            BuildableName = "Mr.Watch.Remote.app"
-            BlueprintName = "Mr.Watch.Remote"
+            BlueprintIdentifier = "A715D53A1B43C36500858794"
+            BuildableName = "libCompanionKit.a"
+            BlueprintName = "CompanionKit"
             ReferencedContainer = "container:Mr.Watch.Remote.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +79,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A715D4D41B43BFEC00858794"
-            BuildableName = "Mr.Watch.Remote.app"
-            BlueprintName = "Mr.Watch.Remote"
+            BlueprintIdentifier = "A715D53A1B43C36500858794"
+            BuildableName = "libCompanionKit.a"
+            BlueprintName = "CompanionKit"
             ReferencedContainer = "container:Mr.Watch.Remote.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

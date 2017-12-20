@@ -8,6 +8,8 @@
 
 #import <WatchKit/WatchKit.h>
 #import <Foundation/Foundation.h>
+#import "MRPairing.h"
+#import "MRCompanion.h"
 
 @interface InterfaceController : WKInterfaceController
 

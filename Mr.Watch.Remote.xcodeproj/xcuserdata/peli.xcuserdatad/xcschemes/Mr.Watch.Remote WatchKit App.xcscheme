@@ -5,6 +5,50 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A715D5011B43BFEC00858794"
+               BuildableName = "Mr.Watch.Remote WatchKit App.app"
+               BlueprintName = "Mr.Watch.Remote WatchKit App"
+               ReferencedContainer = "container:Mr.Watch.Remote.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A715D5101B43BFEC00858794"
+               BuildableName = "Mr.Watch.Remote WatchKit Extension.appex"
+               BlueprintName = "Mr.Watch.Remote WatchKit Extension"
+               ReferencedContainer = "container:Mr.Watch.Remote.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A715D4D41B43BFEC00858794"
+               BuildableName = "Mr.Watch.Remote.app"
+               BlueprintName = "Mr.Watch.Remote"
+               ReferencedContainer = "container:Mr.Watch.Remote.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -13,6 +57,15 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A715D5011B43BFEC00858794"
+            BuildableName = "Mr.Watch.Remote WatchKit App.app"
+            BlueprintName = "Mr.Watch.Remote WatchKit App"
+            ReferencedContainer = "container:Mr.Watch.Remote.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +79,27 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/Mr.Watch.Remote WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A715D5011B43BFEC00858794"
+            BuildableName = "Mr.Watch.Remote WatchKit App.app"
+            BlueprintName = "Mr.Watch.Remote WatchKit App"
+            ReferencedContainer = "container:Mr.Watch.Remote.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A715D5011B43BFEC00858794"
+            BuildableName = "Mr.Watch.Remote WatchKit App.app"
+            BlueprintName = "Mr.Watch.Remote WatchKit App"
+            ReferencedContainer = "container:Mr.Watch.Remote.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +109,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/Mr.Watch.Remote WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A715D5011B43BFEC00858794"
+            BuildableName = "Mr.Watch.Remote WatchKit App.app"
+            BlueprintName = "Mr.Watch.Remote WatchKit App"
+            ReferencedContainer = "container:Mr.Watch.Remote.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A715D5011B43BFEC00858794"
+            BuildableName = "Mr.Watch.Remote WatchKit App.app"
+            BlueprintName = "Mr.Watch.Remote WatchKit App"
+            ReferencedContainer = "container:Mr.Watch.Remote.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

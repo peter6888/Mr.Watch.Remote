@@ -15,6 +15,10 @@
 
 
 @implementation InterfaceController
+- (IBAction)pairMediaroomClient {
+    NSString *pairingUid = @"1";
+    [MRCompanion enablePairingWithIp:@"172.29.38.212" forUid:pairingUid];
+}
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
